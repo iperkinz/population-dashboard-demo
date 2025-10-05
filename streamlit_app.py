@@ -255,7 +255,7 @@ with col[2]:
     st.dataframe(df_selected_year_sorted,
                  column_order=("states", "population"),
                  hide_index=True,
-                 width=None,
+                 width=stretch,
                  column_config={
                     "states": st.column_config.TextColumn(
                         "States",
